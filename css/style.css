@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #faf4f2;
+}
+
+.clear {
+  clear: both;
+}
+
+.header {
+  background: #ffffff;
+  padding: 10px 170px 20px;
+}
+
+.header ul {
+  list-style: none;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.header li {
+  display: inline;
+  margin-right: 40px;
+}
+
+.carousel {
+  background-image: url(../images/2.jpg);
+  height: 800px;
+  background-size: cover;
+  background-position: center top;
+}
+
+.logo {
+  display: flex;
+  padding: 5px 0;
+}
+.logo__icon {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  padding-left: 15px;
+  border-radius: 90px;
+  background-color: #002146;
+  position: relative;
+  color: #fdc800;
+  cursor: pointer;
+}
+.logo h2 {
+  padding-top: 2px;
+  padding-left: 10px;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer {
+  color: rgb(218, 218, 218);
+  background-color: #002146;
+  padding: 100px 30px 50px;
+}
+
+.footer__content {
+  border: solid green;
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+}
+.footer h3 {
+  font-size: 25px;
+  margin-bottom: 21px;
+}
+.footer p {
+  font-size: 20px;
+}
+
+.footer a {
+  font-size: 20px;
+}
+
+.footer__about {
+  float: left;
+  width: 33.33%;
+  line-height: 28px;
+  padding: 0 28px;
+  border: solid orange;
+}
+
+.footer__nav {
+  float: left;
+  width: 33.33%;
+  border: solid orange;
+  padding-left: 30px;
+}
+
+.footer__nav li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+.footer__nav a {
+  text-decoration: none;
+  color: rgb(218, 218, 218);
+}
+
+.footer__copyrights {
+  text-align: left;
+  padding-top: 30px;
+}
