@@ -47,20 +47,22 @@ body {
 /* LOGO */
 
 .logo {
-  display: flex;
   padding: 5px 0;
 }
 .logo__icon {
+  float: left;
   width: 45px;
   height: 45px;
   line-height: 45px;
   padding-left: 15px;
+  margin-right: 10px;
   border-radius: 50%;
   background-color: #002146;
   position: relative;
   color: #fdc800;
   cursor: pointer;
 }
+
 .logo h2 {
   padding-top: 2px;
   padding-left: 10px;
@@ -80,11 +82,11 @@ body {
 .welcome__content {
   /* border: solid orange; */
   margin: auto;
-  display: flex;
   width: 80%;
   padding: 10px;
 }
 .welcome__text {
+  float: left;
   /* border: solid green; */
   width: 50%;
   padding: 20px;
@@ -113,8 +115,9 @@ body {
 }
 
 .welcome__photo {
+  float: right;
   /* border: solid green; */
-  width: 50%;
+  width: 49%;
 }
 
 .welcome__photo img {
@@ -129,25 +132,25 @@ body {
 .stats {
   /* border: solid red; */
   background-color: #f6f6f6;
-  padding: 50px 10px;
+  padding: 10px 10px;
 }
 
 .stats__content {
   /* border: solid orange; */
   margin: auto;
-  display: flex;
   width: 80%;
-  padding: 10px;
+  padding: 25px 10px;
 }
 .stats__numbers {
   /* border: solid green; */
-  display: flex;
+  float: left;
   width: 25%;
   padding: 15px;
 }
 
 .stats__number {
   /* border: solid purple; */
+  float: left;
   padding: 15px 0px;
   margin-right: 10px;
 }
@@ -183,18 +186,18 @@ body {
 
 .majors__row {
   /* border: solid green; */
-  display: flex;
   width: 100%;
   padding: 15px 10px;
 }
 .majors__item {
+  float: left;
   text-align: center;
   border: solid 002146;
   border-radius: 5px;
   color: white;
   background-color: #002146;
-  width: 25%;
-  padding: 20px 50px;
+  width: 22%;
+  padding: 30px 50px;
   margin-right: 15px;
   margin-left: 15px;
   font-size: 20px;
@@ -215,16 +218,16 @@ body {
 
 .postsAndEvents__content {
   /* border: solid orange; */
-
   padding: 10px;
   margin: auto;
-  display: flex;
   width: 80%;
 }
 .posts {
+  float: left;
   /* border: solid green; */
   display: block;
   padding: 10px;
+  margin-right: 10px;
   width: 50%;
   font-family: "Oswald", sans-serif;
 }
@@ -237,12 +240,12 @@ body {
   background-color: #ffffff;
   /* border: solid yellow; */
   padding: 10px;
-  display: flex;
 }
 
 .post__photo {
+  float: left;
   /* border: solid purple; */
-  width: 50%;
+  width: 40%;
   padding: 10px;
 }
 .post__photo img {
@@ -251,16 +254,19 @@ body {
 }
 
 .post__text {
+  float: right;
+  width: 60%;
   /* border: solid purple; */
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 5px;
 }
 .post__text h2 {
-  font-size: 25px;
+  font-size: 23px;
 }
 
 .post__text p {
   line-height: 25px;
-  font-size: 20px;
+  font-size: 18px;
 }
 .posts__viewAll {
   text-align: right;
@@ -276,10 +282,11 @@ body {
 }
 
 .events {
+  float: right;
   /* border: solid green; */
   display: block;
   padding: 10px;
-  width: 50%;
+  width: 48%;
   font-family: "Oswald", sans-serif;
 }
 
@@ -291,7 +298,6 @@ body {
   background-color: #ffffff;
   /* border: solid yellow; */
   padding: 10px;
-  display: flex;
 }
 
 .events__viewAll {
@@ -309,6 +315,7 @@ body {
 }
 
 .event__calendar {
+  float: left;
   width: 30%;
   padding: 10px;
 }
@@ -336,6 +343,7 @@ body {
 }
 
 .event__text {
+  float: right;
   width: 70%;
   display: block;
   padding: 10px;
@@ -347,16 +355,11 @@ body {
 
 .event__text p {
   line-height: 25px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
-.event__dateTime {
-  display: flex;
-  width: 100%;
-}
-.vl {
-  border-left: 2px solid rgb(163, 163, 163);
-  height: 20px;
+span.grayLine {
+  color: gray;
 }
 
 /* EVENTS END */
@@ -427,7 +430,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid rgb(88, 88, 88);
   margin: 1em 0;
   padding: 0;
 }
